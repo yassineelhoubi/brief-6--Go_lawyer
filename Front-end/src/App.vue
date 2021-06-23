@@ -37,6 +37,7 @@
       </div>
     </nav>
      <router-view/>
+    <Footer />
   </div>
  
 
@@ -44,12 +45,14 @@
 
 <script>
 import Home from "./views/Home.vue";
+import Footer from "./components/Footer.vue"
 
 export default {
   name: "App",
   components: {
 
     Home,
+    Footer,
 
   },
   data(){

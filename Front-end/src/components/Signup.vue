@@ -49,7 +49,7 @@
         placeholder="Password"
         v-model="password"
       />
-      <button class="btn btn-info text-white" @click.prevent="signup">
+      <button class="btn btn-primary mt-2 text-white" @click.prevent="signup">
         S'enregistrer
       </button>
     </div>

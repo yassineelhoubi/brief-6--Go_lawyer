@@ -65,7 +65,7 @@
     </form>
     <!-- apointments list -->
     <div class="container">
-      <center><h1>historical</h1></center>
+      <center><h1>Historical</h1></center>
       <table class="table table-primary table-striped">
         <thead>
           <tr>
@@ -252,7 +252,7 @@ export default {
       localStorage.clear()
       this.$router.push("/")
     },
-    
+
     pushtoHome(){
       this.$router.push("/")
     }

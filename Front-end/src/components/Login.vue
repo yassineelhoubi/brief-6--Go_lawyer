@@ -8,7 +8,7 @@
         class="form-control mb-2"
         v-model="ref"
       />
-      <button @click.prevent="login" class="btn btn-info text-white">
+      <button @click.prevent="login" class="btn btn-primary text-white">
         Sign In
       </button>
     </div>
