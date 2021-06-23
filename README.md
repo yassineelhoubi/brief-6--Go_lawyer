@@ -1,12 +1,12 @@
 # Go_lawyer
 
-##Put the backend-brief6 file in htdocs
+## Put the backend-brief6 file in htdocs
 
-##AND
+## AND
 
-##==> Folder Front-end
+## ==> Folder Front-end
 
-##AND
+## AND
 
 ## Project setup
 ```
