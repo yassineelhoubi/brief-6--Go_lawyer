@@ -6,8 +6,8 @@
   <div class="container home" >
  
     <div class="container col-lg-5 pt-5 pb-5">
-      <Sign v-if="!isAuth" @setuser="setUser"/>
-      <Reservations v-else />
+      <Sign />
+      
     </div>
     
   </div>
@@ -21,7 +21,7 @@
   </div>
   </div>
   
-  <Footer />
+
   </div>
 </template>
 
@@ -40,16 +40,7 @@ export default {
     Sign,
   },
   methods:{
-    setuser(userid){
-      this.userid = userid
-      this.isAuth=true
- 
-    },
-    watch:{
-      userid: function(userid){
-        this.setuser(userid)
-      }
-    }
+
   }
 }
 </script>

@@ -4,7 +4,7 @@
       <label for="Reference">First Name :</label>
       <input
         type="text"
-        id="reference"
+
         class="form-control form-control-lg"
         placeholder="First name"
         v-model="Fname"
@@ -12,7 +12,7 @@
       <label for="Reference">Date Birth :</label>
       <input
         type="date"
-        id="reference"
+
         class="form-control form-control-lg"
         placeholder="Date Birth"
         v-model="dateBirth"
@@ -20,7 +20,7 @@
       <label for="Reference">Email :</label>
       <input
         type="email"
-        id="reference"
+
         class="form-control form-control-lg"
         placeholder="Email"
         v-model="email"
@@ -28,7 +28,7 @@
       <label for="Reference">CNIE :</label>
       <input
         type="text"
-        id="reference"
+
         class="form-control form-control-lg"
         placeholder="CNIE"
         v-model="cnie"
@@ -36,7 +36,7 @@
       <label for="Reference">Profession :</label>
       <input
         type="text"
-        id="reference"
+
         class="form-control form-control-lg"
         placeholder="Profession"
         v-model="profession"
@@ -44,7 +44,7 @@
       <label for="Reference">Password :</label>
       <input
         type="password"
-        id="reference"
+
         class="form-control form-control-lg"
         placeholder="Password"
         v-model="password"

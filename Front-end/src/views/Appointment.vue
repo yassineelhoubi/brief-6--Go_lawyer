@@ -30,7 +30,7 @@
         <label for="exampleFormControlInput1" class="form-label"
           >Creneaux</label
         >
-        <select
+        <select 
           class="form-control"
           required
           name=""
@@ -107,10 +107,10 @@
 </template>
 <script>
 import axios from "axios";
-/* import AppointmentList from "../components/AppointmentList.vue"; */
+
 export default {
   components: {
-    /* AppointmentList, */
+
   },
   data() {
     return {
@@ -252,6 +252,7 @@ export default {
       localStorage.clear()
       this.$router.push("/")
     },
+    
     pushtoHome(){
       this.$router.push("/")
     }

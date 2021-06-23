@@ -1,4 +1,5 @@
 <template>
+<div>
 
     <header>
     <nav class="navbar navbar-expand ">
@@ -11,14 +12,14 @@
               :class="{ active: showSignup }"
               aria-current="page"
               href="#"
-              @click="handleOnclick()"
+              @click="Onclicksignup()"
               >Sign Up</a
             >
             <a
               class="nav-link"
               :class="{ active: showLogin }"
               href="#"
-              @click="handleOnclick()"
+              @click="OnclickLogin()"
               >Sign In</a
             >
           </div>
@@ -31,6 +32,7 @@
     <Signup v-else />
     <!-- <button @click="setuser(1)">click</button> -->
   </main>
+</div>
 
 </template>
 
@@ -45,14 +47,18 @@ export default {
   },
   data() {
     return {
-      showLogin: true,
+      showLogin: false,
+      showSignup: true,
     };
   },
   methods: {
-    handleOnclick() {
-
-        this.showLogin = !this.showLogin
-
+    OnclickLogin() {
+        this.showLogin = true
+        showSignup = false 
+    },
+        Onclicksignup() {
+        this.showLogin = false
+        showSignup = true 
     },
 
   },
