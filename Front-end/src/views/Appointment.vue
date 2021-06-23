@@ -100,7 +100,7 @@
     </div>
     <!-- apointment LIst -->
   </div>
-<div v-else class="mt-5">
+<div v-else class="logout">
   <center><h1>Write Your Reference First</h1><span><button class="btn btn-primary" @click="pushtoHome">Click Here</button></span></center>
 </div>
 
@@ -264,3 +264,8 @@ export default {
     }
 };
 </script>
+<style scoped>
+.logout{
+  padding: 242px 0;
+}
+</style>

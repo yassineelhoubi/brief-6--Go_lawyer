@@ -47,8 +47,8 @@ export default {
   },
   data() {
     return {
-      showLogin: false,
-      showSignup: true,
+      showLogin: true,
+      showSignup: false,
     };
   },
   methods: {
